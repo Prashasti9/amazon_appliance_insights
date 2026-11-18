@@ -1,3 +1,4 @@
 data/
 .venv/
 *.txt
+.DS_Store
