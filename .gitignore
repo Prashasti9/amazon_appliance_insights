@@ -2,3 +2,16 @@ data/
 .venv/
 *.txt
 .DS_Store
+
+# Local credentials
+.env
+.env.*
+!.env.example
+.venv/
+
+# Google Cloud service account credentials
+*gcp-key*.json
+*gcp_key*.json
+*service-account*.json
+*credentials*.json
+gcp-keys/
