@@ -15,3 +15,7 @@ data/
 *service-account*.json
 *credentials*.json
 gcp-keys/
+# allow requirements file (blocked by *.txt above)
+!requirements.txt
+# never commit the credentials notebook
+set_gcp_credentials.*
